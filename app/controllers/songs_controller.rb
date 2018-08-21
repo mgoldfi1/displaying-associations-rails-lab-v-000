@@ -48,3 +48,7 @@ class SongsController < ApplicationController
   end
 end
 
+def format
+  "#{self.artist.name} - #{self.title}"
+end
+
